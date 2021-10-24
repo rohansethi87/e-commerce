@@ -33,7 +33,6 @@ const App = () => {
             <Navbar totalItems={cart.total_items} />
             {/* <Products products={products} onAddToCart={handleAddToCart} /> */}
             {cart.total_items && (<Cart cart={cart} />)}
-            {/* <Cart cart={cart} /> */}
 
         </div>
     )
